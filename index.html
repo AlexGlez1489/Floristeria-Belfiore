@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BelFiore Floristería</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Swiper.js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="Css/style.css">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="Css/normalize.css">
+</head>
+<body>  
+
+    <!-- Efecto de carga -->
+    <div id="loader">
+        <img src="Logo/Belfiore_Logo.jpeg" alt="Logo BelFiore">
+    </div>
+
+    <a href="https://wa.me/6692303772" class="whatsapp-fijo" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <header class="navegacion contenedor_header">
+        <div class="contenedor">
+            <div class="logo_nav">
+                <a href="index.html"><img src="Logo/Belfiore_Logo.jpeg" alt="Logo"></a>
+                <nav class="nav_bar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a class="smooth-scroll" href="#galeria">Galería</a></li>
+                        <li><a href="ramos.html">Ramos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=61563669159036" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/6692303772" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="contenedor_bg">
+        <div class="navegacion_bg">
+            <h2 class="centrar-texto">Arreglos Florales</h2>
+            <p class="centrar-texto">Flores frescas y personalizadas a precios increíbles. ¡Descúbrelas hoy!💐</p>
+            <a href="#galeria" class="btn-galeria smooth-scroll">Mostrar Galería</a>
+        </div>
+    </section> 
+
+    <section class="proyectos contenedor-ga" id="galeria">
+        <h2 class=" titulo centrar-texto txt_gris">Galería de arreglos Florales</h2>
+        <div class="linea"></div>
+
+        <div class="gallery-navigation">
+            <button class="arrow arrow-left" id="scroll-left">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 7l-5 5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <img src="img/arreglo1.jpeg" alt="Arreglo Floral 1">
+                   
+                </div>
+                <div class="proyecto">
+                    <img src="img/arreglo2.jpeg" alt="Arreglo Floral 2">
+               
+                </div>
+                <div class="proyecto">
+                    <img src="img/arreglo3.jpeg" alt="Arreglo Floral 3">
+               
+                </div>
+                <div class="proyecto">
+                    <img src="img/arreglo1.jpeg" alt="Arreglo Floral 4">
+               
+                </div>
+                <!-- Agrega más proyectos aquí -->
+            </div>
+            <button class="arrow arrow-right" id="scroll-right">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 17l5-5-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    
+    <!-- Inicio Cuerpo -->
+    <section class="cuerpo">
+        <div class="contenedor">
+            <h2 class="titulo centrar-texto txt_gris">Métodos de pago</h2>
+            <p class="txt_gris centrar-texto">
+                En Floristería BelFiore aceptamos una variedad de métodos de pago para tu comodidad. Puedes realizar tus compras utilizando tarjetas Visa, Mastercard, o pagos en efectivo a través de OXXO. 
+            </p>
+            <div class="iconos_pago centrar-texto">
+                <img src="img/oxxo.png" alt="Pago en OXXO">
+                <img src="img/mastercard.png" alt="Tarjeta Mastercard">
+                <img src="img/visa.png" alt="Tarjeta Visa">
+            </div>
+        </div>
+    </section>
+
+    <section class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117308.72067772802!2d-106.57510383605339!3d23.24681593902636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869f5341681837c1%3A0x62a4c4aaf13c72b2!2zTWF6YXRsw6FuLCBTaW4u!5e0!3m2!1ses-419!2smx!4v1723403273367!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="envios">
+        <div class="contenedor">
+            <h2 class="titulo centrar-texto txt_gris">Envíos a domicilio</h2>
+            <p class="txt_gris centrar-texto">En Floristería BelFiore, ofrecemos envíos a domicilio en todo Mazatlán. Disfruta de la comodidad de recibir tus flores frescas directamente en la puerta de tu hogar</p>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contenedor_footer">
+            <div class="footer__social">
+                <h3>Síguenos</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61563669159036" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/6692303772" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__legal">
+                <p class="txt_gris_suave">© 2024 BelFiore Floristería. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="JS/app.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+</html>

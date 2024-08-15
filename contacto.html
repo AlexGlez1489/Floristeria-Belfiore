@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BelFiore Floristería</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="Css/style.css">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="Css/normalize.css">
+</head>
+<body>  
+
+     <!-- Efecto de carga -->
+     <div id="loader">
+        <img src="Logo/Belfiore_Logo.jpeg" alt="Logo BelFiore">
+    </div>
+
+    <header class="navegacion contenedor_header">
+        <div class="contenedor">
+            <div class="logo_nav">
+                <a href="index.html"><img src="Logo/Belfiore_Logo.jpeg" alt="Logo"></a>
+                <nav class="nav_bar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#galeria">Galería</a></li>
+                        <li><a href="ramos.html">Ramos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=61563669159036" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/6692303772" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contenedor">
+        <div class="contacto">
+            <h2 class="centrar-texto">Contacto</h2>
+            
+            <div class="contacto_info">
+                <h3>Información de Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i>Mazatlán, Sinaloa</p>
+                <p><i class="fas fa-phone-alt"></i> Teléfono: <a href="tel:+6692303772">669-230-3772</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:belfiorefloristas25@gmail.com">belfiorefloristas25@gmail.com</a></p>
+                <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/6692303772" target="_blank">Enviar mensaje</a></p>
+            </div>
+            
+            <div class="contacto_formulario">
+                <h3>Envíanos un Mensaje</h3>
+                <form action="https://formspree.io/f/your-form-id" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    
+                    <button type="submit" class="btn-enviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contenedor_footer">
+            <div class="footer__social">
+                <h3>Síguenos</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61563669159036" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/6692303772" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer__legal">
+                <p class="txt_gris_suave">© 2024 BelFiore Floristería. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="JS/app.js"></script>
+
+</body> 
+</html>
